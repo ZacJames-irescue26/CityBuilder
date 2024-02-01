@@ -1,0 +1,9 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+#include "CityBuilder.h"
+#include "Modules/ModuleManager.h"
+
+IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, CityBuilder, "CityBuilder" );
+
+DEFINE_LOG_CATEGORY(LogCityBuilder)
+ 
